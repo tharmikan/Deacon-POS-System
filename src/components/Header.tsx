@@ -36,7 +36,7 @@ export function Header({ toggleTheme, isDarkMode }: HeaderProps) {
             className="ml-2"
             onClick={() => setSearchOpen(false)}
           >
-            <X size={20} />
+            <X width={20} height={20} />
           </Button>
         </div>
       ) : (
@@ -78,12 +78,13 @@ export function Header({ toggleTheme, isDarkMode }: HeaderProps) {
   );
 }
 
-function X(props: React.SVGProps<SVGSVGElement>) {
+// Custom X SVG component that properly handles width and height props instead of size
+function X({ width = 24, height = 24, ...props }: React.SVGProps<SVGSVGElement> & { width?: number; height?: number }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
+      width={width}
+      height={height}
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
