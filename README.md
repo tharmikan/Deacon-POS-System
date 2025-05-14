@@ -1,73 +1,52 @@
-# Welcome to your Lovable project
+🧾 About Deacon POS System
+Deacon POS System is a comprehensive Point-of-Sale and ERP (Enterprise Resource Planning) solution designed to streamline business operations, empower sales teams, and optimize inventory and customer management. With a modern, intuitive dashboard and modular features, Deacon offers both small and large enterprises the tools they need to manage operations efficiently.
 
-## Project info
+🔍 Key Features:
+📊 Real-Time Dashboard
+View total revenue, sales count, inventory levels, and active customer data at a glance.
 
-**URL**: https://lovable.dev/projects/5ca165df-a6b0-4040-a664-c087898dc518
+Visual performance metrics such as:
 
-## How can I edit this code?
+Total Revenue: Clear financial performance overview.
 
-There are several ways of editing your application.
+Sales: Daily/weekly sales tracking.
 
-**Use Lovable**
+Inventory: Monitors stock availability and alerts low/out-of-stock items.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/5ca165df-a6b0-4040-a664-c087898dc518) and start prompting.
+Active Customers: Tracks customer engagement growth.
 
-Changes made via Lovable will be committed automatically to this repo.
+🛍️ Sales Management
+Track sales trends over time.
 
-**Use your preferred IDE**
+Analyze category-wise performance with visual tools (pie and line charts).
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+📦 Inventory Tracking
+Manage products and categories with ease.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Get notified about low-stock and out-of-stock items.
 
-Follow these steps:
+👥 Customer & Employee Management
+Add, view, and manage customer details and purchasing history.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Employee modules for managing staff roles, performance, and access levels.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+📈 Reports & Analytics
+Generate actionable business reports.
 
-# Step 3: Install the necessary dependencies.
-npm i
+Access key business insights with just a few clicks.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+⚙️ Settings & Customization
+Easily configure system preferences.
 
-**Edit a file directly in GitHub**
+Manage access, notifications, and business settings.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+💼 Ideal For:
+Retail stores
 
-**Use GitHub Codespaces**
+Cafés and restaurants
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Small to medium businesses
 
-## What technologies are used for this project?
+Service-based businesses
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/5ca165df-a6b0-4040-a664-c087898dc518) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Deacon POS System is your all-in-one retail management companion — combining simplicity, efficiency, and power for growing businesses.
