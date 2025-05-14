@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
@@ -28,6 +27,7 @@ import {
 } from "@/components/ui/alert-dialog";
 import { UserPlus, ShieldCheck, Bell, Store, CircleDollarSign, Printer, Lock, Save, FileText, Trash2, AlertTriangle, Clock } from "lucide-react";
 import { useToast } from "@/components/ui/use-toast";
+import { Plus } from "lucide-react";
 
 // Sample users
 const users = [

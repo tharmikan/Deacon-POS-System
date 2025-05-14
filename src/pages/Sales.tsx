@@ -5,7 +5,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { BarcodeScan, CreditCard, MinusCircle, Package, Plus, Search, ShoppingCart, Trash2, Wallet, QrCode } from "lucide-react";
+import { ScanBarcode, CreditCard, MinusCircle, Package, Plus, Search, ShoppingCart, Trash2, Wallet, QrCode } from "lucide-react";
 import { useToast } from "@/components/ui/use-toast";
 import {
   Select,
@@ -114,7 +114,7 @@ export default function Sales() {
         <h1 className="page-title">Sales</h1>
         <div className="flex gap-2">
           <Button variant="outline" size="sm">
-            <BarcodeScan className="h-4 w-4 mr-2" />
+            <ScanBarcode className="h-4 w-4 mr-2" />
             Scan Barcode
           </Button>
           <Button variant="outline" size="sm">
