@@ -1,4 +1,4 @@
-## Welcome to Deacon POS System
+# Welcome to Deacon POS System
 
 🧾 About Deacon POS System
 Deacon POS System is a comprehensive Point-of-Sale and ERP (Enterprise Resource Planning) solution designed to streamline business operations, empower sales teams, and optimize inventory and customer management. With a modern, intuitive dashboard and modular features, Deacon offers both small and large enterprises the tools they need to manage operations efficiently.
