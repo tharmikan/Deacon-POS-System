@@ -204,7 +204,7 @@ export default function Customers() {
                     </DropdownMenuItem>
                     <DropdownMenuSeparator />
                     <DropdownMenuItem onClick={() => setFilter("high-value")} className={filter === "high-value" ? "bg-accent" : ""}>
-                      High-Value Customers (>$1000)
+                      High-Value Customers ({'>'}$1000)
                     </DropdownMenuItem>
                   </DropdownMenuContent>
                 </DropdownMenu>
@@ -393,3 +393,4 @@ export default function Customers() {
     </div>
   );
 }
+
