@@ -22,6 +22,14 @@ export function Header({ toggleTheme, isDarkMode }: HeaderProps) {
 
   return (
     <header className="flex h-16 items-center px-4 border-b bg-background/95 backdrop-blur">
+      <div className="flex items-center gap-3 mr-4">
+        <img 
+          src="/lovable-uploads/21d06ef2-f942-4f53-98e2-cca92089d967.png" 
+          alt="Deacon Logo" 
+          className="h-8 w-8" 
+        />
+        <span className="font-bold text-xl">Deacon</span>
+      </div>
       {searchOpen ? (
         <div className="flex-1 flex items-center">
           <Input
